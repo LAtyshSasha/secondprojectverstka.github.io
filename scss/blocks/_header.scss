@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  .nav > li{
+    list-style-type: none;
+    font-size: 1vw;
+    flex-direction: row;
+    margin-right: 12%;
+  }
+  .nav{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: end;
+    margin-left: 7%;
+    margin-top: 2%;
+  }
+  .header {
+    display: inline-flex;
+    position: relative;
+    margin-left: 25vw;
+  }
+  .backgr_img {
+    position: absolute;
+    width: 100vw;
+    height: 61vw;
+  }
+  .nav_home, .nav_shop, .nav_about, .nav_contact {
+    position: absolute;
+    font-family: "WorkSans", sans-serif;
+    font-weight: 600;
+    font-size: 1.3vw;
+    color: white;
+    text-decoration: none;
+  }
+  .nav_contact {
+    left: 65%;
+  }
+  .nav_chart {
+    position: absolute;
+    width: 2vw;
+    height: 2vw;
+    right: 18%;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .mainpage {
+    position: relative;
+  }
+  .mainpage_text1 {
+    position: absolute;
+    font-family: "WorkSans", sans-serif;
+    text-align: center;
+    font-size: 4.2vw;
+    font-weight: 700;
+    color: white;
+    margin-top: 10vw;
+    left: 20%;
+    right: 20%;
+  }
+  .mainpage_text2 {
+    position: absolute;
+    font-family: "WorkSans", sans-serif;
+    text-align: center;
+    font-size: 1.2vw;
+    font-weight: 100;
+    line-height: 1.8vw;
+    color: white;
+    margin-top: 21vw;
+    left: 37%;
+    right: 37%;
+  }
+  .mainpage_search {
+    position: absolute;
+    margin-top: 27vw;
+    width: 20vw;
+    height: 3vw;
+    left: 40%;
+    right: 37%;
+  }
+  .mainpage_circle {
+    position: absolute;
+    margin-top: 30.7vw;
+    width: 2.7vw;
+    height: 2.7vw;
+    left: 84%;
+    right: 10%;
+  }
+  .mainpage_cost {
+    position: absolute;
+    margin-top: 24vw;
+    width: 10.5vw;
+    height: 6.2vw;
+    left: 80.5%;
+    right: 10%;
+  }
+  .mainpage_info {
+    position: absolute;
+    margin-top: 36vw;
+    width: 15.2vw;
+    height: 9vw;
+    left: 7.5%;
+    right: 10%;
+  }
+  .mainpage_man {
+    position: absolute;
+    margin-top: 35vw;
+    width: 3vw;
+    height: 3vw;
+    left: 19.5%;
+    right: 10%;
+  }
+  .mainpage_minitext1 {
+    position: absolute;
+    font-family: "WorkSans", sans-serif;
+    text-align: center;
+    font-size: 1.2vw;
+    font-weight: 600;
+    line-height: 1.8vw;
+    color: white;
+    margin-top: 37vw;
+    right: 85%;
+  }
+  .mainpage_minitext2 {
+    position: absolute;
+    font-family: "WorkSans", sans-serif;
+    text-align: center;
+    font-size: 0.7vw;
+    font-weight: 400;
+    line-height: 0.8vw;
+    color: white;
+    margin-top: 39vw;
+    right: 85.4%;
+    color: rgba(250, 250, 250, 0.7);
+  }
+  .mainpage_star {
+    position: absolute;
+    margin-top: 38.9vw;
+    width: 1vw;
+    height: 1vw;
+    left: 16.5%;
+    right: 10%;
+  }
+  .mainpage_minitext3 {
+    position: absolute;
+    font-family: "WorkSans", sans-serif;
+    text-align: center;
+    font-size: 0.7vw;
+    font-weight: 400;
+    line-height: 0.8vw;
+    color: white;
+    margin-top: 39vw;
+    right: 79%;
+    color: #DCB47A;
+  }
+  .mainpage_minitext4 {
+    position: absolute;
+    font-family: "WorkSans", sans-serif;
+    text-align: left;
+    font-size: 0.7vw;
+    font-weight: 400;
+    line-height: 1.4vw;
+    color: white;
+    margin-top: 40vw;
+    right: 79%;
+    left: 8.9%;
+  }
+  .mainpage_rectangle {
+    position: absolute;
+    margin-top: 45vw;
+    width: 100vw;
+    height: 14vw;
+  }
+

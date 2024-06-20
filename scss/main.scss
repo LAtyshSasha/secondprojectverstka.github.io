@@ -1,0 +1,42 @@
+@import "./blocks/header.scss";
+@import "./blocks/block1.scss";
+@import "./blocks/firsttitle.scss";
+@import "./blocks/block2.scss";
+@import "./blocks/secondtitle.scss";
+@import "./blocks/block3.scss";
+@import "./blocks/thirdtitle.scss";
+@import "./blocks/block7.scss";
+
+@font-face {
+    font-family: "WorkSans Bold";
+    src: local("WorkSans Bold"),
+    local("WorkSans-Bold"),
+    url("fonts/WorkSans-Bold.woff") format("woff");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "WorkSans Medium";
+    src: local("WorkSans Medium"),
+    local("WorkSans-Medium"),
+    url("fonts/WorkSans-Medium.woff") format("woff");
+    font-weight: medium;
+}
+@font-face {
+    font-family: "WorkSans Thin";
+    src: local("WorkSans Thin"),
+    local("WorkSans-Thin"),
+    url("fonts/WorkSans-Thin.woff") format("woff");
+    font-weight: thin;
+}
+@font-face {
+    font-family: "WorkSans Light";
+    src: local("WorkSans Light"),
+    local("WorkSans-Light"),
+    url("fonts/WorkSans-Light.woff") format("woff");
+    font-weight: light;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}

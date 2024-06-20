@@ -1,0 +1,40 @@
+.block2_line {
+    margin-top: 24vw;
+    display: flex;
+    justify-content: space-between;
+}
+.block2_line_prodleft {
+    width: 15vw;
+    height: 25vw;
+}
+.block2_line_prod1 {
+    width: 20vw;
+    height: 25vw;
+}
+.block2_line_prod2 {
+    width: 20vw;
+    height: 25vw;
+}
+.block2_line_prod3 {
+    width: 20vw;
+    height: 25vw;
+}
+.block2_line_prodright {
+    width: 15vw;
+    height: 25vw;
+}
+.shadow_border {
+    position: relative;
+    margin-top: -37vw;
+}
+.shadow_border_left {
+    position: absolute;
+    width: 10vw;
+    height: 30vw;
+}
+.shadow_border_right {
+    position: absolute;
+    width: 10vw;
+    height: 30vw;
+    margin-left: 90vw;
+}
